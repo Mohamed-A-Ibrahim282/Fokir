@@ -1,0 +1,930 @@
+@media only screen and (max-width: 600px) {
+
+    /* Home */
+    /*************************************/
+
+    .navbar {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .links {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .links ul {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .links li {
+        margin-left: 0;
+        width: calc(100%/7);
+    }
+
+    .home-containt {
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    .links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .home-containt h1 {
+        font-size: 50px;
+    }
+
+    .home-containt p {
+        font-size: 20px;
+    }
+
+    /* Information */
+    /*************************************/
+
+    .info {
+        width: 90%;
+        margin: auto;
+        padding: 100px 0;
+    }
+
+    .profil-img {
+        width: 90%;
+    }
+
+    .img-border {
+        border-top: solid 10px #555555;
+        border-left: solid 10px #555555;
+        width: 90%;
+        position: relative;
+    }
+
+    .img-border:hover .profil-img-layer {
+        top: 10px;
+    }
+
+    .profil-img-layer {
+        left: 10px;
+    }
+
+    .profil-img img {
+        top: 10px;
+        left: 10px;
+    }
+
+    .personal-info {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* Our Services */
+    /*************************************/
+
+    .item {
+        width: 100%;
+    }
+
+    /* Our Portfolio */
+    /*************************************/
+
+    .portfolio-content ul {
+        list-style: none;
+        width: 90%;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    /* Downloaded info */
+    /*************************************/
+
+    .download-container {
+        width: 90%;
+    }
+
+    .download-items {
+        width: 100%;
+    }
+
+    /* Client's Feedback */
+    /*************************************/
+
+    .user-feedback {
+        width: 90%;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .user-img {
+        width: 100%;
+    }
+
+    .user-img img {
+        width: 25%;
+    }
+
+    .user-info {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .triangle {
+        border-right: 150px solid transparent;
+        border-top: 150px solid #ff305b;
+    }
+
+    .button-shape {
+        width: 20%;
+    }
+
+    /* Our Blog */
+    /*************************************/
+
+    .blogers {
+        width: 90%;
+    }
+
+    .blog-bg {
+        width: 100%;
+    }
+
+    /* Contact Us */
+    /*************************************/
+
+    .contact-inputs {
+        width: 90%;
+    }
+
+    .user-name {
+        width: 100%;
+    }
+
+    .user-email {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Subject {
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* Home */
+    /*************************************/
+
+    .navbar {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0 10px 0;
+    }
+
+    .links {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .links ul {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .links li {
+        margin-left: 0;
+        width: calc(100%/7);
+    }
+
+    .home-containt {
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    .links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .home-containt h1 {
+        font-size: 50px;
+    }
+
+    .home-containt p {
+        font-size: 20px;
+    }
+
+    /* Information */
+    /*************************************/
+
+    .info {
+        width: 80%;
+        margin: auto;
+        padding: 100px 0;
+    }
+
+    .profil-img {
+        width: 100%;
+    }
+
+    .img-border {
+        border-top: solid 10px #555555;
+        border-left: solid 10px #555555;
+        width: 80%;
+        position: relative;
+    }
+
+    .img-border:hover .profil-img-layer {
+        top: 10px;
+    }
+
+    .profil-img-layer {
+        left: 10px;
+    }
+
+    .profil-img img {
+        top: 10px;
+        left: 10px;
+    }
+
+    .personal-info {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* Our Services */
+    /*************************************/
+
+    .item {
+        width: 100%;
+    }
+
+    /* Our Portfolio */
+    /*************************************/
+
+    .portfolio-content ul {
+        width: 90%;
+    }
+
+    .portfolio-content li {
+        width: calc(100%/4);
+    }
+
+
+    .product {
+        width: 100%;
+    }
+
+    /* Downloaded info */
+    /*************************************/
+
+    .download-container {
+        width: 80%;
+    }
+
+    .download-items {
+        width: 50%;
+    }
+
+    /* Client's Feedback */
+    /*************************************/
+
+    .user-feedback {
+        width: 90%;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .user-img {
+        width: 100%;
+    }
+
+    .user-img img {
+        width: 25%;
+    }
+
+    .user-info {
+        width: 100%;
+        padding: 25px 25px 10px 25px;
+        margin-top: 5px;
+    }
+
+    .triangle {
+        border-right: 150px solid transparent;
+        border-top: 150px solid #ff305b;
+    }
+
+    .button-shape {
+        width: 15%;
+    }
+
+    /* Our Blog */
+    /*************************************/
+
+    .blogers {
+        width: 90%;
+    }
+
+    .blog-bg {
+        width: 100%;
+    }
+
+    /* Contact Us */
+    /*************************************/
+
+    .contact-inputs {
+        width: 90%;
+    }
+
+    .user-name {
+        width: 100%;
+    }
+
+    .user-email {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Subject {
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* Home */
+    /*************************************/
+
+    .navbar {
+        width: 90%;
+    }
+
+    .logo {
+        width: 25%;
+
+    }
+
+    .links {
+        width: 75%;
+    }
+
+    .links ul {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .links li {
+        margin-left: 0;
+        width: calc(100%/7);
+    }
+
+    .home-containt {
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    .links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .home-containt h1 {
+        font-size: 50px;
+    }
+
+    .home-containt p {
+        font-size: 20px;
+    }
+
+    /* Information */
+    /*************************************/
+
+    .info {
+        width: 80%;
+        margin: auto;
+        padding: 100px 0;
+    }
+
+    .profil-img {
+        width: 100%;
+    }
+
+    .img-border {
+        border-top: solid 10px #555555;
+        border-left: solid 10px #555555;
+        width: 70%;
+        position: relative;
+    }
+
+    .profil-img img {
+        top: 10px;
+        left: 10px;
+    }
+
+    .personal-info {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* Our Services */
+    /*************************************/
+
+    .item {
+        width: 50%;
+    }
+
+    /* Our Portfolio */
+    /*************************************/
+
+    .portfolio-content ul {
+        width: 75%;
+    }
+
+    .portfolio-content li {
+        width: calc(100%/4);
+    }
+
+    .product {
+        width: 50%;
+    }
+
+    /* Downloaded info */
+    /*************************************/
+
+    .download-container {
+        width: 80%;
+    }
+
+    .download-items {
+        width: 25%;
+    }
+
+    /* Client's Feedback */
+    /*************************************/
+
+    .user-feedback {
+        width: 90%;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .user-img {
+        width: 100%;
+        top: 5px;
+        left: 10px;
+    }
+
+    .user-img img {
+        width: 20%;
+    }
+
+    .user-info {
+        width: 100%;
+        padding: 25px 25px 10px 25px;
+        margin-top: 5px;
+    }
+
+    .triangle {
+        border-right: 150px solid transparent;
+        border-top: 150px solid #ff305b;
+    }
+
+    .button-shape {
+        width: 10%;
+    }
+
+    /* Our Blog */
+    /*************************************/
+
+    .blogers {
+        width: 90%;
+    }
+
+    .blog-bg {
+        width: 50%;
+    }
+
+    /* Contact Us */
+    /*************************************/
+
+    .contact-inputs {
+        width: 90%;
+    }
+
+    .user-name {
+        width: 100%;
+    }
+
+    .user-email {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Subject {
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* Home */
+    /*************************************/
+
+    .navbar {
+        width: 90%;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .links {
+        width: 75%;
+    }
+
+    .links ul {
+        width: 70%;
+        margin-right: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .links li {
+        margin-left: 0;
+        width: calc(100%/7);
+    }
+
+    .home-containt {
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    .links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .home-containt h1 {
+        font-size: 50px;
+    }
+
+    .home-containt p {
+        font-size: 20px;
+    }
+
+    /* Information */
+    /*************************************/
+
+    .profil-img {
+        width: 100%;
+    }
+
+    .img-border {
+        border-top: solid 10px #555555;
+        border-left: solid 10px #555555;
+        width: 50%;
+        position: relative;
+    }
+
+    .profil-img img {
+        top: 10px;
+        left: 10px;
+    }
+
+    .personal-info {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* Our Services */
+    /*************************************/
+
+    .item {
+        width: 50%;
+    }
+
+    /* Our Portfolio */
+    /*************************************/
+
+    .portfolio-content ul {
+        width: 60%;
+    }
+
+    .portfolio-content li {
+        width: calc(100%/4);
+    }
+
+    .product {
+        width: calc(100%/3);
+    }
+
+    /* Downloaded info */
+    /*************************************/
+
+    .download-container {
+        width: 80%;
+    }
+
+    .download-items {
+        width: 25%;
+    }
+
+    /* Client's Feedback */
+    /*************************************/
+
+    .user-feedback {
+        width: 90%;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .user-img {
+        width: 100%;
+        top: 5px;
+        left: 10px;
+    }
+
+    .user-img img {
+        width: 20%;
+    }
+
+    .user-info {
+        width: 100%;
+        padding: 25px 25px 10px 25px;
+        margin-top: 5px;
+    }
+
+    .triangle {
+        border-right: 150px solid transparent;
+        border-top: 150px solid #ff305b;
+    }
+
+    .button-shape {
+        width: 10%;
+    }
+
+    /* Our Blog */
+    /*************************************/
+
+    .blogers {
+        width: 90%;
+    }
+
+    .blog-bg {
+        width: 50%;
+    }
+
+    /* Contact Us */
+    /*************************************/
+
+    .contact-inputs {
+        width: 75%;
+    }
+
+    .user-name {
+        width: 100%;
+    }
+
+    .user-email {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Subject {
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    /* Home */
+    /*************************************/
+
+    .navbar {
+        width: 90%;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .links {
+        width: 75%;
+    }
+
+    .links ul {
+        width: 70%;
+        margin-right: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .links li {
+        margin-left: 0;
+        width: calc(100%/7);
+    }
+
+    .home-containt {
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    .links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .home-containt h1 {
+        font-size: 50px;
+    }
+
+    .home-containt p {
+        font-size: 20px;
+    }
+
+    /* Information */
+    /*************************************/
+
+    .profil-img {
+        width: 50%;
+    }
+
+    .img-border {
+        border-top: solid 10px #555555;
+        border-left: solid 10px #555555;
+        width: 60%;
+        position: relative;
+    }
+
+    .img-border:hover .profil-img-layer {
+        top: 20px;
+    }
+
+    .profil-img-layer {
+        left: 20px;
+    }
+
+    .profil-img img {
+        top: 20px;
+        left: 20px;
+    }
+
+    .personal-info {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    /* Our Services */
+    /*************************************/
+
+    .item {
+        width: 25%;
+    }
+
+    /* Our Portfolio */
+    /*************************************/
+
+    .portfolio-content ul {
+        width: 50%;
+    }
+
+    .portfolio-content li {
+        width: calc(100%/4);
+    }
+
+    .product {
+        width: calc(100%/3);
+    }
+
+    /* Downloaded info */
+    /*************************************/
+
+    .download-container {
+        width: 80%;
+    }
+
+    .download-items {
+        width: 25%;
+    }
+
+    /* Client's Feedback */
+    /*************************************/
+
+    .user-feedback {
+        width: 50%;
+    }
+
+    .img-container {
+        width: 25%;
+    }
+
+    .user-img {
+        width: 80%;
+        top: 5px;
+        left: 10px;
+    }
+
+    .user-img img {
+        width: 70%;
+    }
+
+    .user-info {
+        width: 75%;
+        padding: 40px 20px 20px 0;
+    }
+
+    .triangle {
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+    }
+
+    .button-shape {
+        width: 6%;
+    }
+
+    /* Our Blog */
+    /*************************************/
+
+    .blogers {
+        width: 90%;
+    }
+
+    .blog-bg {
+        width: calc(100%/3);
+    }
+
+    /* Contact Us */
+    /*************************************/
+
+    .contact-inputs {
+        width: 90%;
+    }
+
+    .user-name {
+        width: 45%;
+    }
+
+    .user-email {
+        width: 43%;
+        margin-left: 15px;
+    }
+
+    .Subject {
+        width: 90%;
+    }
+
+    .message {
+        width: 90%;
+    }
+
+}
